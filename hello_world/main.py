@@ -15,6 +15,7 @@
 # [START gae_flex_quickstart]
 import logging
 import datetime
+
 from flask import Flask, render_template, request
 from google.auth.transport import requests
 from google.cloud import datastore
